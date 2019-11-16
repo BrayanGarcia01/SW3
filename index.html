@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Requrimiento SW3</title>
+</head>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#enviar').click(function(){
+				$.ajax({
+					type:"get",
+					url:"1061760951.json",
+					dataType:"json",
+					success: function(response){
+						alert(response.name);
+
+					}
+				});
+			});
+			});
+	</script>
+
+<form>
+	<label>Cedula:</label><input type="" name="">
+</form>
+<button id="enviar">Enviar</button>
+
+
+</body>
+</html>
