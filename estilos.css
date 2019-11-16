@@ -1,0 +1,22 @@
+body{background:#000000;
+    color:#fff;
+}
+
+div{
+    width: 50%;
+    height:200px ;
+    background:#ff8000;
+    margin: 20px 50px;
+    padding: 30px;
+    border: 10px solid #000;
+}
+
+hi{
+    front-weight: normal ;
+    text-align:center;
+    blackground: #ccc;
+    
+}
+
+/* contenido */
+
