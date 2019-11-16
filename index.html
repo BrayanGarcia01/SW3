@@ -13,24 +13,24 @@
 <body>
 	<script type="text/javascript">
 		$(document).ready(function(){
+
 			$('#enviar').click(function(){
 				$.ajax({
 					type:"get",
 					url:"1061760951.json",
 					dataType:"json",
 					success: function(response){
-						alert(response.name);
-
+					
 					}
 				});
 			});
 			});
 	</script>
 
-<form>
+<form action="tareas.php" metthod="post">
 	<label>Cedula:</label><input type="" name="">
+	<button id="enviar">Enviar</button>
 </form>
-<button id="enviar">Enviar</button>
 
 
 </body>
