@@ -1,0 +1,59 @@
+body{
+    background: url(../img/oficina.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.naranja{
+    width: 60%;
+    height:10px;
+    background:#fd942b;
+    display: inline-table;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 10px;
+    border: 5px solid #000;
+    font-size: 25px;
+}
+.divCedula{
+    width: 50%;
+    margin: 20px 30px;
+    text-align: center;
+    color: #7e0e0e;
+}
+.tachado{
+    text-decoration: line-through;
+    color: grey;
+}
+.cbx{
+    width: 20%;
+    height: 50px;
+    border: 5px solid red;
+    margin: 10px 0 10px;
+}
+.contenedor{
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+}
+.prueba{
+    text-decoration: line-through;
+}
+
+.nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+/* contenido */
+

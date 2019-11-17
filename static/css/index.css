@@ -10,7 +10,7 @@ body{
 }
 
 .modal-content{
-    background-color: #3b4652;
+    background-color: #9aa5b1;
     opacity: .85;
     padding: 0 20px;
     box-shadow: 0px 0px 3px #848484;
@@ -50,10 +50,9 @@ body{
 .form-group#contrasena-group::before{
     content: "\f023";
 }
-
-button{
-    width: 60%;
-    margin: 5px 0 25px;
+.button{
+    width: 70%;
+    margin: 15px 0 50px;
 }
 
 .forgot{
@@ -63,3 +62,10 @@ button{
 .forgot a{
     color: white;
 }
+.input:invalid {
+    border: 1px solid red;
+  }
+  
+.input:valid {
+    border: 1px solid green;
+  }

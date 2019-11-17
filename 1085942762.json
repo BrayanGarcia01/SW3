@@ -1,15 +1,15 @@
 {
-"cedula":"2031",
+"cedula":"1085942762",
 "tareas":[
-	{
+	{	
 	"nombre":"Planear semana",
 	"fecha":"17-11-19",
-	"terminada:":""
+	"terminada":"false"
 	},
-	{
+	{	
 	"nombre":"Ser feliz",
 	"fecha":"17-11-19",
-	"terminada":""
+	"terminada":"false"
 	}
 	]
 }

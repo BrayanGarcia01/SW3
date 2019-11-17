@@ -15,7 +15,8 @@
         	}else{
 
         		$miUsuario->addTarea(new tarea($tarea['nombre'],$tarea['fecha'],$tarea['terminada']));
-        	}
+			}
+			
         	$i+=1;
         }
         
@@ -48,5 +49,6 @@
 		  
 		fclose($fh);
 		
+
     
 ?>
