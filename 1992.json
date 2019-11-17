@@ -1,0 +1,15 @@
+{
+"cedula":"1992",
+"tareas":[
+	{
+	"nombre":"Planear semana",
+	"fecha":"16-11-19",
+	"terminada:":"false"
+	},
+	{
+	"nombre":"Ser feliz",
+	"fecha":"16-11-19",
+	"terminada":"false"
+	}
+	]
+}
